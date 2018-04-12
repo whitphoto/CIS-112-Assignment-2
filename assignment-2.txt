@@ -1,0 +1,46 @@
+   
+ 
+       FD  Employee-Data.
+       01  Employee Record.
+           05 Employee-Number-in   pic x(5).
+           05 Employee-Name-in     pic x(20).
+           05 FILLER               pic x(4).
+           05 Annual-Salary        pic 9(6).
+           05 FILLER               pic x(4).
+           05 Union-Dues           pic 999v99.
+           05 insurance            pic 999v99.
+     
+      
+  
+       01 detail-line.
+           05 filler               pic x(3) value spaces.
+           05 Number-Out           pic 9(5).
+           05 filler               pic x(2) value spaces. 
+           05 Name-Out             pic x(20).
+           05 filler               pic x(2) value spaces.
+           05 Old-Salary           pic 9(6).
+           05 Filler               pic x(1) value spaces.
+           05 New-Salary           pic 9(6).
+           05 Filler               pic x(2) value spaces.
+           05 Old-Dues             pic 999v99.
+           05 Filler               pic x(1) value spaces.
+           05 New-Dues             pic 9999v99.
+           05 Filler               pic x(1) value spaces.
+           05 Old-Insur            pic 9999v99.
+           05 Filler               pic x(1) value spaces.
+           05 New-Insur            pic 9999v99.
+           05 Filler               pic x(2) value spaces.
+       
+           
+           
+           
+       
+       
+       
+       working-storage section.
+
+       procedure division.
+
+           goback.
+           
+       end program Program1.
